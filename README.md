@@ -1,4 +1,4 @@
-# bootstrap-datepicker
+﻿# bootstrap-datepicker
   - [官网文档](http://bootstrap-datepicker.readthedocs.io/en/stable/)  
   - [在线demo](https://uxsolutions.github.io/bootstrap-datepicker/)
   - [github地址](https://github.com/uxsolutions/bootstrap-datepicker)
@@ -58,6 +58,7 @@
     todayHighlight: true, // 默认为false, 为true时，弹出框中会显示当前日期。
     defaultViewDate: { year: 1977, month: 04, day: 25 }, // 设置弹出框中默认会显示的时间, 会使得todayHighlight: true 失效
     datesDisabled: ['06/06/2017', '06/21/2017'] // 设置哪些日期不可以选择,这里就是禁止选择6日与21日
+    添加 langulage: 'zh-CN'属性
   }
   $('#datepicker').datepicker(options)
   ```
